@@ -1,16 +1,21 @@
+
 public class MainJava{
     public static void main(String[] args) {
         String pokemonName;
         String pokemonAttribute;
         String pokemonEvolution;
 
-    public Object pokemonAttribute;
+    
+
+    public class pokemonAttribute{
         int numAttribute;
         String attributeName;
-    
-    public void pokemonEvolution;
+    }    
+
+    public class pokemonEvolution{
         int numEvolutions;
-        String evolutionName;
+        String evolutionName; 
+    }
         //if (boolean pokemonEvolution > 1) *work on later
         //System.out.println("\n Pokemon has multip")
         
