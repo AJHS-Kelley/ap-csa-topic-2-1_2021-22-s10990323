@@ -5,7 +5,10 @@ public class MainJava{
         String pokemonAttribute;
         String pokemonEvolution;
 
-    
+    public class pokemonName{
+        String pokemonName;
+        Boolean megaName;
+    }
 
     public class pokemonAttribute{
         int numAttribute;
