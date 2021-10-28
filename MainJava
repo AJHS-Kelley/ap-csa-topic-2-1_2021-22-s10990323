@@ -1,4 +1,4 @@
-
+// Lorenzo Kenon, 10/28/21, v1.0, 9:14
 public class MainJava{
     public static void main(String[] args) {
         String pokemonName;
