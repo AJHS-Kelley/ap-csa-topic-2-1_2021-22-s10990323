@@ -1,21 +1,25 @@
 // Lorenzo Kenon, 10/28/21, v1.0, 9:14
-public class MainJava{
-    public static void main(String[] args) {
+public class Pokemon{
         String pokemonName;
         String pokemonAttribute;
         String pokemonEvolution;
-
-    public class pokemonName{
+public Pokemon(){
+    this.pokemonName= "";
+    this.pokemonAttribute= "";
+    this.pokemonEvolution= "";
+}
+    public static void main(String[] args) {
+public pokemonName(){
         String pokemonName;
         Boolean megaName;
     }
 
-    public class pokemonAttribute{
+public pokemonAttribute(){
         int numAttribute;
         String attributeName;
     }    
 
-    public class pokemonEvolution{
+public pokemonEvolution(){
         int numEvolutions;
         String evolutionName; 
     }

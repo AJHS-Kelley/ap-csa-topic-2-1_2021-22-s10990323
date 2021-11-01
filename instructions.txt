@@ -8,3 +8,8 @@ Write Java code that creates an object of each class.
 
 Your Java file should be named Main.java. 
 
+# Auto detect text files and perform LF normalization
+* text=auto
+
+public main() {
+    } 
