@@ -1,31 +1,28 @@
-// Lorenzo Kenon, 10/28/21, v1.0, 9:14
+// Lorenzo Kenon, 11/3/21, v1.1, 10:21
+import java.util.Scanner;
+
 public class Pokemon{
-        String pokemonName;
-        String pokemonAttribute;
-        String pokemonEvolution;
-public Pokemon(){
-    this.pokemonName= "";
-    this.pokemonAttribute= "";
-    this.pokemonEvolution= "";
+    private String pokemonName;
+    private String pokemonAtr;
+    private String pokemonEvo;
+    
+    public Pokemon() {
+    this.pokemonName = "";  
+    this.pokemonAtr = "";
+    this.pokemonEvo = "";
 }
+    public Pokemon(String pokemonName,String pokemonAtr, String pokemonEvo) {
+        this.pokemonName = pokemonName;  
+        this.pokemonAtr = pokemonAtr;
+        this.pokemonEvo = pokemonEvo;
+    }
+    
+    
     public static void main(String[] args) {
-public pokemonName(){
-        String pokemonName;
-        Boolean megaName;
-    }
+        Scanner myScanner= new Scanner(System.in);
 
-public pokemonAttribute(){
-        int numAttribute;
-        String attributeName;
-    }    
+    
 
-public pokemonEvolution(){
-        int numEvolutions;
-        String evolutionName; 
-    }
-        //if (boolean pokemonEvolution > 1) *work on later
-        //System.out.println("\n Pokemon has multip")
-        
 
     
 

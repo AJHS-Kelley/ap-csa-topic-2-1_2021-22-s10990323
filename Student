@@ -1,0 +1,51 @@
+import java.util.Scanner;
+// I used your code as a reference for mines.
+public class Student {
+    // These are INSTANCE VARIABLES 
+     private int studentID;
+     private int gradeLevel;
+     private double gradePointAvg;
+     private String studentName;
+
+
+     // Creating a Constructor 
+     public Student() {
+         this.studentID = 0;
+         this.gradeLevel = 0;
+         this.gradePointAvg = 0.0;
+         this.studentName = "";
+     }
+
+     // Value constructer 
+     public Student( int studentID, int gradeLevel, double gradePointAvg, String studentName) {
+        this.studentID = studentID;
+        this.gradeLevel = gradeLevel;
+        this.gradePointAvg = GPA;
+        this.studentName = studentName;
+     }
+     public Student(int studentID, studentName) {
+        this.studentID = studentID;
+        this.gradeLevel = 9;
+        this.gradePointAvg = 4.0;
+        this.studentName = studentName;
+    }
+
+    public static void main(String[] args) {
+         Student student0 = new Student();
+         Student student2 = new Student(12345678, 11, 0.57, "Spiderman");
+
+         System.out.println("Hello  there!");
+         threeLine();
+         System.out.println("Spiderman");
+         calcGPA();
+    }
+
+
+
+
+
+
+
+
+
+}
