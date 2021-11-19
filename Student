@@ -1,4 +1,4 @@
-// Lorenzo Kenon 11/19/21 8:23AM
+// Lorenzo Kenon 11/19/21 8:34AM
 import java.util.Scanner;
 // I used your code as a reference for mines.
 public class Student {
@@ -115,6 +115,16 @@ public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
 }
 
 public static void mathPractice (){
+    double x;
+    double y;
+    Scanner myscanner = new Scanner(System.in);
+    x = myScanner.nextdouble();
+    y = myScanner.nextdouble();
+    System.out.println(Math.min(x , y));
+
+double lowest;
+lowest = Math.min(x , y);
+System.out.println(lowest);
     
 }
 
