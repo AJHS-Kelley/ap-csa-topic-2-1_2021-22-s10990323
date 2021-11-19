@@ -1,3 +1,4 @@
+// Lorenzo Kenon 11/19/21 8:23AM
 import java.util.Scanner;
 // I used your code as a reference for mines.
 public class Student {
@@ -30,6 +31,33 @@ public class Student {
         this.studentName = studentName;
     }
 
+
+ public static void calGPA() {
+        int grade0;
+        int grade1;
+        int grade2;
+        int grade3;
+        double newGPA;
+
+        import java.util.Scanner;
+        Scanner myScanner = new Scanner(System.in);
+
+        System.out.println("What is your first grade");
+        grade0 = myScanner.nextInt();
+        System.out.println("What is your second grade");
+        grade1 = myScanner.nextInt();
+        System.out.println("What is your third grade");
+        grade2 = myScanner.nextInt();
+        System.out.println("What is your fourth grade");
+        grade3 = myScanner.nextInt();
+
+        newGPA = (grade0 +grade2 + grade3 + grade1) / 4;
+        System.out.print("The new GPA");
+        System.out.println(newGPA);
+
+
+
+
     public static void main(String[] args) {
          Student student0 = new Student();
          Student student2 = new Student(12345678, 11, 0.57, "Spiderman");
@@ -39,8 +67,56 @@ public class Student {
          System.out.println("Spiderman");
          calcGPA();
     }
+// Parameters  
+public static void assignLunch(int gradeLevel) {
+    Starting = lunchPeriod;
 
+    if (gradeLevel == 9){
+        lunchPeriod = "First Lunch";
+        System.out.print("This Student has ");
+        System.out.println(lunchPeriod)
+    } else if (gradeLevel == 10){
+        lunchPeriod = "First Lunch";
+        System.out.print("This Student has ");
+        System.out.println(lunchPeriod)
+    } else if (gradeLevel == 11){
+        lunchPeriod = "First Lunch";
+        System.out.print("This Student has ");
+        System.out.println(lunchPeriod)
+    } else (gradeLevel == 12){
+        lunchPeriod = "First Lunch";
+        System.out.print("This Student has ");
+        System.out.println(lunchPeriod)
+    }
 
+public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
+    Starting = lunchPeriod;
+// AND, OR, NOT -- Boolean Operators
+// && -- AND
+// || -- 0R
+// ! -- NOT 
+    if (gradeLevel == 9 || gradePointAvg <= 1.5){
+        lunchPeriod = "First Lunch";
+        System.out.print("This Student has ");
+        System.out.println(lunchPeriod)
+    } else if (gradeLevel == 10 && gradePointAvg > 2.0){
+        lunchPeriod = "Second Lunch";
+        System.out.print("This Student has ");
+        System.out.println(lunchPeriod)
+    } else if (gradeLevel == 11 && (gradePointAvg != 0.0)){
+        lunchPeriod = "Third Lunch";
+        System.out.print("This Student has ");
+        System.out.println(lunchPeriod)
+    } else  {
+        lunchPeriod = "Off-Campus Lunch";
+        System.out.print("This Student has ");
+        System.out.println(lunchPeriod)
+    }
+}
+
+public static void mathPractice (){
+    
+}
 
 
 
