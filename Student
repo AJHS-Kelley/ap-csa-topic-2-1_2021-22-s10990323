@@ -133,7 +133,6 @@ public static void mathPractice (){
     double exponents; 
     exponents = Math.pow(x , y);
     System.out.println(exponents);
-    
     System.out.println("Printing random numbers.\n");
     System.out.println(Math.random());
 
@@ -142,6 +141,10 @@ public static void mathPractice (){
     System.out.print("There is a ");
     System.out.print(percentage);
     System.out.println("Chance of rain today.\n");
+
+    int round;
+    round = Math.round(x);
+    System.out.println(round);
 
     
 }
