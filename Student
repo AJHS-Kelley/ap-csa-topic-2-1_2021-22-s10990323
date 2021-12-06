@@ -1,4 +1,4 @@
-// Lorenzo Kenon 11/19/21 8:42AM
+// Lorenzo Kenon 12/6/21 8:34AM v2.0
 import java.util.Scanner;
 // I used your code as a reference for mines.
 public class Student {
@@ -148,6 +148,23 @@ public static void mathPractice (){
 
     
 }
+
+public static double getGPA() {
+    int grade0, grade1, grade2;
+
+    grade0 = 87;
+    grade1 = 92;
+    grade2 = 79;
+
+    double fakeGPA;
+    fakeGPA = (grade0, grade1, grade2) / 3;
+
+}
+
+public static void main(String[] args){
+
+}
+
 
 
 
