@@ -1,7 +1,7 @@
 // Lorenzo Kenon 12/6/21 8:34AM v2.0
 import java.util.Scanner;
-// I used your code as a reference for mines.
-public class Student {
+
+public class Student  {
     // These are INSTANCE VARIABLES 
      private int studentID;
      private int gradeLevel;
@@ -18,13 +18,13 @@ public class Student {
      }
 
      // Value constructer 
-     public Student( int studentID, int gradeLevel, double gradePointAvg, String studentName) {
+     public Student( int studentID, int gradeLevel, double GPA, String studentName) {
         this.studentID = studentID;
         this.gradeLevel = gradeLevel;
         this.gradePointAvg = GPA;
         this.studentName = studentName;
      }
-     public Student(int studentID, studentName) {
+     public Student(int studentID, String studentName) {
         this.studentID = studentID;
         this.gradeLevel = 9;
         this.gradePointAvg = 4.0;
@@ -39,7 +39,6 @@ public class Student {
         int grade3;
         double newGPA;
 
-        import java.util.Scanner;
         Scanner myScanner = new Scanner(System.in);
 
         System.out.println("What is your first grade");
@@ -54,43 +53,33 @@ public class Student {
         newGPA = (grade0 +grade2 + grade3 + grade1) / 4;
         System.out.print("The new GPA");
         System.out.println(newGPA);
+ }
 
 
-
-
-    public static void main(String[] args) {
-         Student student0 = new Student();
-         Student student2 = new Student(12345678, 11, 0.57, "Spiderman");
-
-         System.out.println("Hello  there!");
-         threeLine();
-         System.out.println("Spiderman");
-         calcGPA();
-    }
-// Parameters  
 public static void assignLunch(int gradeLevel) {
-    Starting = lunchPeriod;
+     String lunchPeriod;
 
     if (gradeLevel == 9){
         lunchPeriod = "First Lunch";
         System.out.print("This Student has ");
-        System.out.println(lunchPeriod)
+        System.out.println(lunchPeriod);
     } else if (gradeLevel == 10){
         lunchPeriod = "First Lunch";
         System.out.print("This Student has ");
-        System.out.println(lunchPeriod)
+        System.out.println(lunchPeriod);
     } else if (gradeLevel == 11){
         lunchPeriod = "First Lunch";
         System.out.print("This Student has ");
-        System.out.println(lunchPeriod)
-    } else (gradeLevel == 12){
+        System.out.println(lunchPeriod);
+    } else {
         lunchPeriod = "First Lunch";
         System.out.print("This Student has ");
-        System.out.println(lunchPeriod)
+        System.out.println(lunchPeriod);
+    }
     }
 
-public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
-    Starting = lunchPeriod;
+public static void assignLunch(int gradeLevel, double gradePointAvg) {
+    String lunchPeriod;
 // AND, OR, NOT -- Boolean Operators
 // && -- AND
 // || -- 0R
@@ -98,19 +87,19 @@ public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
     if (gradeLevel == 9 || gradePointAvg <= 1.5){
         lunchPeriod = "First Lunch";
         System.out.print("This Student has ");
-        System.out.println(lunchPeriod)
+        System.out.println(lunchPeriod);
     } else if (gradeLevel == 10 && gradePointAvg > 2.0){
         lunchPeriod = "Second Lunch";
         System.out.print("This Student has ");
-        System.out.println(lunchPeriod)
+        System.out.println(lunchPeriod);
     } else if (gradeLevel == 11 && (gradePointAvg != 0.0)){
         lunchPeriod = "Third Lunch";
         System.out.print("This Student has ");
-        System.out.println(lunchPeriod)
+        System.out.println(lunchPeriod);
     } else  {
         lunchPeriod = "Off-Campus Lunch";
         System.out.print("This Student has ");
-        System.out.println(lunchPeriod)
+        System.out.println(lunchPeriod);
     }
 }
 
@@ -119,8 +108,8 @@ public static void mathPractice (){
     double y;
     Scanner myscanner = new Scanner(System.in);
     System.out.println("Type in your number.\n");
-    x = myScanner.nextdouble();
-    y = myScanner.nextdouble();
+    x = myscanner.nextDouble();
+    y = myscanner.nextDouble();
     System.out.println(Math.min(x , y));
 
     double lowest;
@@ -143,7 +132,7 @@ public static void mathPractice (){
     System.out.println("Chance of rain today.\n");
 
     int round;
-    round = Math.round(x);
+    round = (int) Math.round(x);
     System.out.println(round);
 
     
@@ -159,10 +148,19 @@ public static double getGPA() {
     double fakeGPA;
     fakeGPA = (grade0, grade1, grade2) / 3;
 
+    return fakeGPA;
+
 }
 
 public static void main(String[] args){
 
+    //mathPractice();
+
+    double realGPA;
+    realGPA = -1.0;
+    System.out.println(realGPA);
+    realGPA = getGPA();
+    System.out.println(realGPA);
 }
 
 
@@ -172,4 +170,3 @@ public static void main(String[] args){
 
 
     }
-}
